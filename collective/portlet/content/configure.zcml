@@ -10,16 +10,6 @@
     <i18n:registerTranslations directory="locales" />
     <include package="plone.app.portlets" />
 
-    <utility
-	   name="collective.portlet.content.title_display_vocabulary"
-	   component=".vocabularies.TitleDisplayVocabularyFactory"
-	 />
-
-    <utility
-	   name="collective.portlet.content.item_display_vocabulary"
-	   component=".vocabularies.ItemDisplayVocabularyFactory"
-	 />
-
     <genericsetup:registerProfile
        name="default"
        title="Content portlet"
